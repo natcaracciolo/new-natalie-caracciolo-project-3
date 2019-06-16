@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What is Your 80's Theme Song?</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.scss">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <main>
+        <header class="wrapper">
+            <h1>What's your <span class="pink">1</span><span class="blue">9</span><span class="green">8</span><span class="yellow">0</span><span class="red">'</span><span class="purple">S</span> theme song?</h1>
+            <p>Have you ever wondered what your ideal 80's song is? Probably not. But while you're here, why not find out?! Check one answer that applies to you in each section, and you will be given an 80's track to jam out to today!</p>
+            <button class="button1">Take Quiz</button>  
+        </header>
+
+        <form id="quiz" onsubmit="return false" aria-label="test-questions">
+            <fieldset class="question1">
+                <div class="wrapper">
+                    <div class="title">
+                        <legend>How do your friends describe you?</legend>
+                    </div>
+
+                    <div class="options" aria-label="question">
+                            <div>
+                                <input id="q1" type="radio" class="radio-button" name="q1" value="joyDivision"></input>
+                                <label class="radio-button-label" for="q1">Angsty. Like a teenager</label>
+                            </div>
+                                
+                            <div>
+                                <input id="q2" type="radio" class="radio-button" name ="q1" value="talkingHeads">
+                                <label class="radio-button-label" for="q2">Quirky - in a good way!</label>
+                            
+                            </div>
+
+                            <div>
+                                <input id="q3" type="radio" class="radio-button" name="q1" value="newOrder">
+                                <label class="radio-button-label" for="q3">Happy. Like, all of the time.</label>
+                            </div>
+
+                            <div>
+                                <input id="q4" type="radio" class="radio-button" name="q1" value="saltPeppa">
+                                <label class="radio-button-label" for="q4">Cocky. I can't get enough of myself.</label>
+                            </div>
+                    </div>   
+                </div>    
+            </fieldset>
+
+
+            <fieldset class="question2">
+                <div class="wrapper">
+                    <div class="title">
+                        <legend>How do you feel about your current life situation?</legend>
+                    </div>
+                    <div class="options"> 
+                            <div>
+                                <input id="q5" type="radio" class="radio-button" name="q1" value="joyDivision"></input>
+                                <label class="radio-button-label" for="q5">Things are getting out of hand.</label>
+                            </div>
+                                    
+                            <div>
+                                 <input id="q6" type="radio" class="radio-button" name ="q1" value="talkingHeads">
+                                 <label class="radio-button-label" for="q6">You often ask yourself.....how did I get here?</label>
+                                
+                            </div>
+    
+                            <div>
+                                <input id="q7" type="radio" class="radio-button" name="q1" value="newOrder">
+                                <label class="radio-button-label" for="q7">Cant complain!</label>
+                            </div>
+
+                            <div>
+                                <input id="q8" type="radio" class="radio-button" name="q1" value="saltPeppa">
+                                <label class="radio-button-label" for="q8">Not So Good! But do I care?? No</label>
+                            </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset class="question3">
+                <div class="wrapper">
+                    <div class="title">
+                        <legend>What would you prefer to do on weekends?</legend>
+                    </div>
+                        <div class="options">
+                            <div>
+                                <input id="q9" type="radio" class="radio-button" name="q1" value="joyDivision"></input>
+                                <label class="radio-button-label" for="q9">doesn't matter. as long as I'm alone</label>
+                            </div>
+                                    
+                            <div>
+                                <input id="q10" type="radio" class="radio-button" name ="q1" value="talkingHeads">
+                                <label class="radio-button-label" for="q10">organize my cookboks by alphabetical order</label>
+                                
+                            </div>
+
+                            <div>
+                                <input id="q11" type="radio" class="radio-button" name="q1" value="newOrder">
+                                <label class="radio-button-label" for="q11">GO OUT #WITHTHEGIRLSSS</label>
+                            </div>
+
+                            <div>
+                                <input id="q12" type="radio" class="radio-button" name="q1" value="saltPeppa">
+                                <label class="radio-button-label" for="q12">Skateboarding. Or some other cool $#!@.</label>
+                            </div>
+                        </div>
+                        <button class="submit-button">Find my song!</button>
+                </div>   
+            </fieldset>
+        </form>
+
+        <section class="results">
+            <div class="quiz-answer">
+                
+            </div>
+        </section>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

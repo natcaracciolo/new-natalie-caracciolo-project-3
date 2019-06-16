@@ -1,0 +1,28 @@
+
+@import "../partials/_normalize.scss";
+@import "../partials/_header.scss";
+@import "../partials/_radio-styles.scss";
+@import "../partials/_results.scss";
+@import "../partials/_main-buttons.scss";
+@import "../partials/_form.scss";
+@import "../partials/_responsive.scss";
+
+
+.wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+@font-face {
+    src: url('../fonts/Sabo-Filled.otf');
+    font-family: 'sabo';
+    font-style: normal;
+    font-weight: 100;
+}
+
+body {
+    background: #222222;
+    color: #FAFAFA;
+    font-family: 'teko';
+}
+
