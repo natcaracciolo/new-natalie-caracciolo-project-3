@@ -1,6 +1,4 @@
 
-
-
 .wrapper {
     max-width: 60%;
     margin: 0 auto;
@@ -203,17 +201,6 @@ button,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
  .results {
       background-image: url('../assets/memphis-mini-dark.png');
       
@@ -226,13 +213,6 @@ button,
   .quiz-answer {
       text-align: center;
   }
-
-
-
-
-
-
-
 
 
 @media (max-width: 763px) {
@@ -297,5 +277,7 @@ button,
     legend {
         padding-top: 0;
     }
+
+}
 
 }
